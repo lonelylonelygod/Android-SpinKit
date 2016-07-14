@@ -31,7 +31,7 @@ public class DetailActivity extends AppCompatActivity implements Colors {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
         ViewPager viewPager = (ViewPager) findViewById(R.id.view_pager);
-        viewPager.setOffscreenPageLimit(0);
+        viewPager.setOffscreenPageLimit(Style.values().length);
         viewPager.setAdapter(new PagerAdapter() {
             @Override
             public int getCount() {
@@ -75,7 +75,6 @@ public class DetailActivity extends AppCompatActivity implements Colors {
 
             @Override
             public void onPageSelected(int position) {
-                getWindow().getDecorView().setBackgroundColor(colors[position % colors.length]);
             }
 
             @Override

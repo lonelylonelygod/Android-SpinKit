@@ -19,7 +19,8 @@ public enum Style {
     ROTATING_CIRCLE(11),
     MULTIPLE_PULSE(12),
     PULSE_RING(13),
-    MULTIPLE_PULSE_RING(14);
+    MULTIPLE_PULSE_RING(14),
+    PLAY_STATION_WAVE(15);
 
     @SuppressWarnings({"FieldCanBeLocal", "unused"})
     private int value;

@@ -9,6 +9,7 @@ import com.github.ybq.android.spinkit.style.FadingCircle;
 import com.github.ybq.android.spinkit.style.FoldingCube;
 import com.github.ybq.android.spinkit.style.MultiplePulse;
 import com.github.ybq.android.spinkit.style.MultiplePulseRing;
+import com.github.ybq.android.spinkit.style.PlaystationWave;
 import com.github.ybq.android.spinkit.style.Pulse;
 import com.github.ybq.android.spinkit.style.PulseRing;
 import com.github.ybq.android.spinkit.style.RotatingCircle;
@@ -69,6 +70,9 @@ public class SpriteFactory {
                 break;
             case MULTIPLE_PULSE_RING:
                 sprite = new MultiplePulseRing();
+                break;
+            case PLAY_STATION_WAVE:
+                sprite = new PlaystationWave();
                 break;
             default:
                 break;
