@@ -3,7 +3,7 @@
 
 ## Preview
 
-<img src="https://raw.githubusercontent.com/ybq/AndroidSpinKit/master/art/screen.gif" width="240px" height="426px"/>
+<img src="https://raw.githubusercontent.com/lonelylonelygod/Android-SpinKit/master/art/screen.gif" width="240px" height="426px"/>
 
 <img src="https://raw.githubusercontent.com/ybq/AndroidSpinKit/master/art/screen2.gif" width="200px" height="200px"/>
 
@@ -63,6 +63,7 @@ CubeGrid         | <img src='https://raw.githubusercontent.com/ybq/AndroidSpinKi
 FadingCircle     | <img src='https://raw.githubusercontent.com/ybq/AndroidSpinKit/master/art/FadingCircle.gif' alt='FadingCircle' width="90px" height="90px"/>
 FoldingCube      | <img src='https://raw.githubusercontent.com/ybq/AndroidSpinKit/master/art/FoldingCube.gif' alt='FoldingCube' width="90px" height="90px"/>
 RotatingCircle   | <img src='https://raw.githubusercontent.com/ybq/AndroidSpinKit/master/art/RotatingCircle.gif' alt='RotatingCircle' width="90px" height="90px"/>
+PlayStationWave   | <img src='https://raw.githubusercontent.com/lonelylonelygod/Android-SpinKit/master/art/PlayStationWave.gif' alt='PlayStationWave' width="90px" height="90px"/>
 
 
 
@@ -77,7 +78,7 @@ RotatingCircle   | <img src='https://raw.githubusercontent.com/ybq/AndroidSpinKi
 
 ## LICENSE
 
-	 Copyright ybq 2016
+	 Copyright lonelylonelygod 2016
 
 	Licensed under the Apache License, Version 2.0 (the "License");
 	you may not use this file except in compliance with the License.
