@@ -9,22 +9,10 @@
 
 ## Gradle Dependency
 
-  1. Add the JitPack repository to your build file
-
-	```gradle
-	allprojects {
-				repositories {
-					...
-					maven { url "https://jitpack.io" }
-				}
-	}
-	```
-
-  2. Add the dependency
 
  ``` gradle
 dependencies {
-    compile 'com.github.ybq:Android-SpinKit:1.0.4'
+        compile 'io.github.lonelylonelygod:android-SpriteKit:1.0.0'
  }
 ```
 
@@ -40,9 +28,9 @@ dependencies {
      android:layout_width="wrap_content"
      android:layout_height="wrap_content"
      android:layout_gravity="center"
-     app:SpinKit_Color="@color/colorAccent" />         
+     app:SpinKit_Color="@color/colorAccent" />
 ```
- 
+
 - ProgressBar
 
  ```java
@@ -52,13 +40,13 @@ progressBar.setIndeterminateDrawable(doubleBounce);
 ```
 
 ## Style
-> 
+>
  ```xml
 @style/SpinKitView
 @style/SpinKitView.Circle
 @style/SpinKitView.Large
 @style/SpinKitView.Small
-@style/SpinKitView.Small.DoubleBounce   
+@style/SpinKitView.Small.DoubleBounce
  ```
 
 Style | Preview
@@ -102,5 +90,3 @@ RotatingCircle   | <img src='https://raw.githubusercontent.com/ybq/AndroidSpinKi
 	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 	See the License for the specific language governing permissions and
 	limitations under the License.
-
-
